@@ -1,69 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aly Fashion | Sapatos de Marca</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aly Moda | Sapatos de Marca</title>
+<link rel="stylesheet" href="estilo.css">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#b40000">
-<link rel="icon" href="icon.svg">
+<link rel="icon" href="icone.svg">
 </head>
 <body>
-  <header>
-    <div class="logo">ALY <span>FASHION</span></div>
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="inicio" class="hero">
-      <div>
-        <p class="tag">ESTILO • QUALIDADE • ELEGÂNCIA</p>
-        <h1>O teu estilo começa nos teus pés.</h1>
-        <p>Descubra a nossa seleção de sapatos de marca na Aly Fashion.</p>
-        <a class="btn" href="#produtos">Ver produtos</a>
-      </div>
-    </section>
+<h1>ALY MODA</h1>
+<nav>
+<a href="#inicio">Início</a>
+<a href="#produtos">Produtos</a>
+</nav>
 
-    <section id="produtos" class="products">
-      <h2>Produtos em destaque</h2>
-      <p class="subtitle">Escolha o seu modelo e faça a sua encomenda.</p>
-      <div class="grid">
-        <article class="card">
-          <div class="shoe">👟</div>
-          <h3>Sapatilha Premium</h3>
-          <p class="price">Preço sob consulta</p>
-          <a class="order" href="https://wa.me/258867378283?text=Olá%20Aly%20Fashion,%20quero%20saber%20o%20preço%20da%20Sapatilha%20Premium.">Encomendar</a>
-        </article>
-        <article class="card">
-          <div class="shoe">👞</div>
-          <h3>Sapato Clássico</h3>
-          <p class="price">Preço sob consulta</p>
-          <a class="order" href="https://wa.me/258867378283?text=Olá%20Aly%20Fashion,%20quero%20saber%20o%20preço%20do%20Sapato%20Clássico.">Encomendar</a>
-        </article>
-        <article class="card">
-          <div class="shoe">🥾</div>
-          <h3>Modelo Urban</h3>
-          <p class="price">Preço sob consulta</p>
-          <a class="order" href="https://wa.me/258867378283?text=Olá%20Aly%20Fashion,%20quero%20saber%20o%20preço%20do%20Modelo%20Urban.">Encomendar</a>
-        </article>
-      </div>
-    </section>
+<div id="produtos">
+<p>Aqui vão os seus sapatos</p>
+</div>
 
-    <section id="contacto" class="contact">
-      <h2>Fale connosco</h2>
-      <p>Faça a sua encomenda diretamente pelo WhatsApp.</p>
-      <a class="whatsapp" href="https://wa.me/258867378283?text=Olá%20Aly%20Fashion!%20Quero%20ver%20os%20sapatos%20disponíveis.">WhatsApp: 86 737 8283</a>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 Aly Fashion — Sapatos de marca</p>
-  </footer>
-<script>if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 </body>
 </html>
