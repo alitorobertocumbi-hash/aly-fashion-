@@ -1,0 +1,11 @@
+{
+  "name":"Aly Fashion",
+  "short_name":"Aly Fashion",
+  "description":"Aly Fashion — sapatos de marca.",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#ffffff",
+  "theme_color":"#b40000",
+  "orientation":"portrait",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
