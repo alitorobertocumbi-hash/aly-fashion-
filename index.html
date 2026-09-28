@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aly Moda | Sapatos de Marca</title>
-<link rel="stylesheet" href="estilo.css">
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#b40000">
-<link rel="icon" href="icone.svg">
-</head>
-<body>
-
-<h1>ALY MODA</h1>
-<nav>
-<a href="#inicio">Início</a>
-<a href="#produtos">Produtos</a>
-</nav>
-
-<div id="produtos">
-<p>Aqui vão os seus sapatos</p>
-</div>
-
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js');
-  }
-</script>
-</body>
-</html>
+{
+  "name": "Aly Fashion",
+  "short_name": "Aly",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b40000",
+  "icons": [
+    {
+      "src": "icone.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
